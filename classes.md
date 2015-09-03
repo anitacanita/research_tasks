@@ -1,4 +1,4 @@
-## Class
+## Classes
 
 A class is like a blueprint that allows you to build objects (instances of that class). This blueprint (if designed properly) will have all the attributes the object needs. It will have:
 * __States__ (values stored in variables for example)
