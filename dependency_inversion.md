@@ -4,7 +4,7 @@
 
 example without DI:
 
-````
+````Ruby
 class Report  
   def initialize
     @body = "whatever"
@@ -24,7 +24,7 @@ end
 
 example with DI:
 
-````
+````Ruby
 class Report  
   def initialize
     @body = "whatever"
