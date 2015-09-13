@@ -6,7 +6,7 @@ Inheritance is used to indicate that one class will get most or all of its featu
 
 1) Implicit Inheritance - actions on the child imply an action on the parent.
 
-````
+````Ruby
 class Parent
 
   def implicit()
@@ -23,7 +23,7 @@ end
 
   The problem with having functions called implicitly is sometimes you want the child to behave differently.
 
-````
+````Ruby
 class Parent
 
   def override()
@@ -43,7 +43,7 @@ end
 
 The third way to use inheritance is a special case of overriding where you want to alter the behavior before or after the Parent class's version runs.
 
-````
+````Ruby
 class Parent
   def altered()
     puts "PARENT altered()"
@@ -65,7 +65,7 @@ end
 Inheritance is useful, but another way to do the exact same thing is just to use other classes and modules, rather than rely on implicit inheritance. If you look at the three ways to exploit inheritance, two of the three involve writing new code to replace or alter functionality. This can easily be replicated by just calling functions in a module.
 
 
-```
+```Ruby
 class Other
 
   def override()
@@ -116,7 +116,7 @@ If both solutions solve the problem of reuse, then which one is appropriate in w
 
 Example of Inheritance using ships.
 
-`````
+`````Ruby
 Class Ship
   def initialize(coordinates)
     @position = ''
